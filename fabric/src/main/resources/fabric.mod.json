@@ -8,8 +8,8 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "sources": "https://github.com/TBM-Studios/village-nullifier",
+        "issues": "https://github.com/TBM-Studios/village-nullifier/issues"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
@@ -29,8 +29,5 @@
         "minecraft": "${minecraft_version}",
         "java": ">=${java_version}"
     },
-    "suggests": {
-        "another-mod": "*"
-    }
 }
   
