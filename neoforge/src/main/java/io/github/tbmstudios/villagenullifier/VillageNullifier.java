@@ -8,7 +8,9 @@ import net.neoforged.fml.common.Mod;
 public class VillageNullifier {
 
     public VillageNullifier(IEventBus eventBus) {
-
+        String configPath = "defaultconfigs/villagenullifier.json";
+        ConfigHandler.createConfigFile(configPath);
+        ConfigHandler.readConfigFile(configPath);
         // This method is invoked by the NeoForge mod loader when it is ready
         // to load your mod. You can access NeoForge and Common code in this
         // project.
